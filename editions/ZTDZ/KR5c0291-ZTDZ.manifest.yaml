@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5c0291/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0291/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 九轉靈砂大丹
+  date: '2015-08-29 00:55:38.267120'
+  source:
+    repository: kanripo
+    path: KR5c0291
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0291_000-ZTDZ.yaml, hash: 'sha256:05f438ff79ab6456487e4df470ddd2217414ef4850dd49240cbb5708ea72a648'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0291_000-ZTDZ.markers.yaml, hash: 'sha256:f5b8f9c3523349da2a72ede2a9066dd8d907193b4928719ec976781940173091'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0291_SJB_000-190030a
+    span:
+    - body
+    - 0
+    - 3467
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:0ac3eae75ee865807cde1a84b23135b4e475e87b4bd3b3bd215a951aa88fd858
